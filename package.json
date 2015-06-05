@@ -1,0 +1,31 @@
+{
+  "name": "issue-log",
+  "version": "0.0.0",
+  "description": "Decentralised issue tracking along side your code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/drsm79/issue-log.git"
+  },
+  "keywords": [
+    "code",
+    "issues",
+    "git"
+  ],
+  "author": "Simon Metson",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/drsm79/issue-log/issues"
+  },
+  "dependencies": {
+    "github": "~0.2.4",
+    "yargs": "~3.10.0",
+    "underscore": "~1.8.3",
+    "nodegit": "~0.4.1",
+    "shelljs": "~0.5.1",
+    "editor": "~1.0.0"
+  }
+}
