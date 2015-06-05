@@ -31,6 +31,7 @@ var args = require('yargs')
         describe: 'Enter initial issue text',
         type: 'string'
       })
+      .demand('m')
       .help('help')
       .alias('h', 'help')
       .example('$0 open [-m opening comments]')
